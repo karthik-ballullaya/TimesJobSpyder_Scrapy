@@ -1,0 +1,2 @@
+Scrapy command to crawl timesjob.com:
+scrapy crawl timesjob -a keywords=<"search_keyword"> -a location=<"location"> -a workexp=<"workexp"> -a maxpages=<"max_number_of_pages">

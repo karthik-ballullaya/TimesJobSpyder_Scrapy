@@ -30,7 +30,7 @@ The spyder scrapes these following fields:
 Ex Cmd: scrapy crawl timesjob -a keywords="Data science" -a location="Mumbai" -a workexp="1" -a maxpages="100"
 
 ### How to view the results:
-The scraped details is stored in a sqlite database. One can use [sqliteonline](https://sqliteonline.com/) for quick viewing of the database.
+The scraped details is stored in a sqlite database named JobListing.db . One can use [sqliteonline](https://sqliteonline.com/) for quick viewing of the database.
 
 ex cmd: SELECT * FROM job_listing_tb;
 
